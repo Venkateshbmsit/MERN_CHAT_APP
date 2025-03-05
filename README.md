@@ -107,23 +107,29 @@ Example: Weather bot, FAQ bot, etc.
 
 Uses MongoDB for storing messages and users.
 Express.js API for chat functionality.
+
 ✅ WebSockets (Socket.IO) for Real-Time Chat:
 
 #API END-POINTS
+
+
 4️⃣ API Endpoints
 📌 User Authentication
 
 Method	Endpoint	Description
+
 POST	/api/users/register	Register a new user
 POST	/api/users/login	Login user & get JWT
 📌 Chat Messages
 
 Method	Endpoint	Description
+
 GET	/api/messages/:userId	Get messages from a user
 POST	/api/messages/send	Send a message
 📌 Group Chats
 
 Method	Endpoint	Description
+
 POST	/api/groups/create	Create a new group
 POST	/api/groups/add-user	Add user to a group
 
