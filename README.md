@@ -58,6 +58,7 @@ Start the Client
 
 # Features
 
+
 1️⃣ Project Overview
 Brief introduction to the chat application.
 Supports one-on-one chat & group chat.
@@ -65,25 +66,37 @@ Real-time messaging using Socket.IO.
 User authentication with JWT (JSON Web Token).
 Notifications for new messages and group activities.
 Chatbot integration for automated responses.
+
+
 2️⃣ Features
+
+
 ✅ User Authentication:
 
 Login & Signup using JWT.
 Secure password hashing with Bcrypt.
 Role-based access control (Admin, User).
+
+
 ✅ One-on-One Chat:
 
 Real-time private messaging.
 Typing indicators and message read status.
+
+
 ✅ Group Chat:
 
 Create and join chat groups.
 Add or remove members.
 Group message notifications.
+
+
 ✅ Notifications:
 
 Live notifications when a new message arrives.
 Browser notifications for new messages.
+
+
 ✅ Chatbot Integration (Basic Features):
 
 Automated responses to user queries.
